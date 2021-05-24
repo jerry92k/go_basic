@@ -1,0 +1,9 @@
+language: go
+
+go:
+  - "1.x"
+
+go_import_path: 4d63.com/gochecknoinits
+
+script:
+  - go test -cover
