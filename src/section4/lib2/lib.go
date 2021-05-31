@@ -5,5 +5,10 @@ func CheckNum1(c int32) bool {
 }
 
 func CheckNum2(c int32) bool {
+
 	return c > 200
+}
+func CheckNum3() int {
+	d := 350
+	return d
 }

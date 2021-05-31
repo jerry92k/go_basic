@@ -18,10 +18,14 @@ func main() {
 	var l = "Hi! Seoul!"
 	var m = true
 
+	var t, q = 7, "hello"
+	// t = 10 선언 키워드 필요
 	fmt.Println("a : ", a)
 	fmt.Println("b : ", b)
 	fmt.Println("c : ", c)
 	fmt.Println("d : ", d)
 	fmt.Println("e : ", e)
+	fmt.Println("t : ", t)
+	fmt.Println("q : ", q)
 
 }
