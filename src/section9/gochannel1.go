@@ -24,7 +24,7 @@ func work2(v chan int) {
 }
 
 func main() {
-	// 채널
+	// 채널은 참조형(reference type)
 	// 고루틴 간의 상호 정보(데이터) 교환 및 실행 흐름 동기화 위해 사용
 	// 실행 흐름 제어 가능(동기, 비동기) -> 일반 변수로 선언 후 사용 가능
 	// 데이터 전달 자료형 선언 후 사용(지정된 타입만 주고받을 수 있음)
@@ -42,12 +42,14 @@ func main() {
 	// var c chan int
 	// c = make(chan int)
 
-	v := make(chan int) // int형 채널 선언
+	v := make(chan int) // int형 채널 선언. 채널은 참조형
 	go work1(v)
 	go work2(v)
 
 	<-v
 	<-v
+
+	// 채널은 동기식이라 Sleep을 하지 않아도 기다림
 
 	fmt.Println("main : E--> ", time.Now())
 

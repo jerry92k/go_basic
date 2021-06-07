@@ -30,6 +30,7 @@ func (c *count) result() {
 func main() {
 	// 뮤텍스(Mutex) : 여러 고루틴에서 작업하는 공유데이터 보호
 	// sync.Mutex 선언 후 lock, unlock 사용
+	// 동기화 사용한 예제
 
 	runtime.GOMAXPROCS(runtime.NumCPU())
 

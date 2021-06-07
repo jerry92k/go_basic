@@ -18,7 +18,7 @@ func main() {
 		close(ch) // 5회 채널에 값 전송 후 채널 닫기
 	}()
 
-	for i := range ch { // 채널에서 값을 꺼내온다. (채널이 close 될 때 까지)
+	for i := range ch { // 채널에서 값을 꺼내온다. (채널이 close 될 때 까 계속 대기. close가 되지 않으면 무한 대기)
 		fmt.Println("ex 1 :", i)
 	}
 }

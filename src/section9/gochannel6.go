@@ -26,5 +26,5 @@ func main() {
 	close(ch)
 
 	val4, ok4 := <-ch
-	fmt.Println("ex1 : ", val4, ok4)
+	fmt.Println("ex1 : ", val4, ok4) // 채널이 닫혀서 값을 수신하지않았다. 알 수 있음. 이것을 통해 채널이 닫혔나 확인 가능
 }

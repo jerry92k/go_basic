@@ -36,6 +36,9 @@ func main() {
 				fmt.Println("ch1 : ", num)
 			case str := <-ch2:
 				fmt.Println("ch2 : ", str)
+				// 채널 수신의 경우 select 문에 default 쓰면 안됨. ->  데이터가 비동기로 전달되므로 수신전에 default로 빠져버림
+				// default:
+				// 	fmt.Println("default")
 			}
 		}
 	}()

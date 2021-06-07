@@ -11,7 +11,7 @@ func main() {
 	// 고루틴 동기화 객체
 	// 동기화 상태(조건) 매소드 사용
 	// 다른 언어 : [wait, notify, notifyall]
-	// 고루틴 : wait, signal, broadcast
+	// 고루틴 : wait, signal, broadcas
 
 	runtime.GOMAXPROCS(runtime.NumCPU())
 
