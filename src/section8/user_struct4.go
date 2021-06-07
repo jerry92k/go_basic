@@ -34,4 +34,5 @@ func main() {
 
 	bs1.rePurchaseP(3, 15000)
 	fmt.Println("ex1-2 :", bs1.purchase())
+
 }

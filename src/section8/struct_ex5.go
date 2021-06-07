@@ -42,4 +42,12 @@ func main() {
 	// 오버라이딩한 매소드를 사용하지 않고 Employee 매소드 사용
 	fmt.Println("ex2 : ", int(ex.Employee.Calculate()+ex.specialBonus))
 
+	/*
+	  Go 에서의 객체지향
+	  encapsulation -> packages
+	  inheritance -> composition
+	  polymorphism -> interfaces
+	  abstraction -> embedding
+	*/
+
 }

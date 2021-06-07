@@ -27,5 +27,6 @@ func main() {
 	  }
 	*/
 	var t test
-	fmt.Println(t)
+	fmt.Println(t) // 빈(empty) 인터페이스인 경우 nil return
+
 }

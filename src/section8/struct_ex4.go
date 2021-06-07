@@ -26,7 +26,7 @@ func main() {
 	ep2 := Employee{"park", 12323, 4444}
 
 	ex := Executives{
-		Employee{"lee", 23434, 3333},
+		Employee{"lee", 23434, 3333}, // is a 관계
 		20000,
 	}
 

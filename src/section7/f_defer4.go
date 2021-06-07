@@ -11,7 +11,7 @@ func end(t string) {
 }
 
 func a() {
-	defer end(start("b"))
+	defer end(start("b")) //중첩함수 주의. start 함수는 먼저 실행됨.
 	fmt.Println("in a")
 }
 

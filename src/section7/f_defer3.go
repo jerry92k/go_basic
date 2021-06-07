@@ -11,5 +11,6 @@ func stack() {
 
 func main() {
 
+	//defer는 스택의 구조처럼 FILO 먼저 예약된게 나중에 실행됨
 	stack()
 }

@@ -25,6 +25,7 @@ func main() {
 	fmt.Println(lee)
 
 	CalculateD(kim)
+	//receiver인 경우 자동으로 참조형으로 변환되지만 함수인 경우는 참조타입을 넘겨줘야함
 	CalculateP(&lee)
 
 	fmt.Println(kim.balance)
