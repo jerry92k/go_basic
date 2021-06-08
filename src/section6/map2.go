@@ -24,4 +24,5 @@ func main() {
 	for _, v := range map1 {
 		fmt.Println("ex2 : ", v)
 	}
+
 }

@@ -25,7 +25,7 @@ func main() {
 	result := sum(5, 5)
 	fmt.Println(result)
 	fmt.Println(sum(2, 5))
-	fmt.Println("ex :", strconv.Itoa(sum(5, 5)))
+	fmt.Println("ex :", strconv.Itoa(sum(5, 5))) // strconv.Itoa : 숫자를 문자열로 바꿈
 	// 함수
 	// 선언 : func 키워드로 선언
 	// func 함수명(매개변수) (반환타입 or 반환값 변수명) : 매개변수 존재, 반환값 존재
