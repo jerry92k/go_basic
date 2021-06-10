@@ -1,0 +1,4 @@
+Hello golang! 
+ File wirte test1
+Hello golang! 
+ File wirte test2

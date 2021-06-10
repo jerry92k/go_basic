@@ -1,0 +1,5 @@
+01234Hello Golang 
+ File write test! -1 
+Hello Golang! 
+ File Write test -3 
+iteAt -2
