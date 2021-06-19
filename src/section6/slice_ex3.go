@@ -10,7 +10,8 @@ func main() {
 
 	// 예제1(복사)
 	slice1 := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-	slice2 := make([]int, 5)
+	slice2 := make([]int, 5, 5)
+
 	slice3 := []int{}
 
 	copy(slice2, slice1)

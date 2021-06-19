@@ -10,8 +10,10 @@ func main() {
 	const (
 		Jan = 1
 		Feb = 2
-		Mar = 3
+		Mar
 	)
 
 	fmt.Println(Jan)
+	fmt.Println(Feb)
+	fmt.Println(Mar)
 }

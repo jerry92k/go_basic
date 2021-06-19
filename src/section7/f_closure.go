@@ -29,4 +29,7 @@ func main() {
 	r2 := sum(10)
 
 	fmt.Println(r2)
+	m = 200
+	r2 = sum(10)
+	fmt.Println(r2)
 }
